@@ -1,0 +1,1 @@
+let APIURL = "https://www.bungie.net/Platform"
