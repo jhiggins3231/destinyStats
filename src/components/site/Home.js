@@ -35,8 +35,6 @@ const searchXboxUser = (e) => {
   })
   .then (res => res.json())
   .then(json => console.log(json))
-  const results = json()
-  const membershipId = JSON.parse(json)
   .catch(err => console.log(err))
 }
 
